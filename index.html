@@ -11,51 +11,92 @@
         <div class="header">Weather App</div>
 
         <div class="current-weather-stats">
-            <h1>72°F</h1>
-            <p>Sunny</p>
-            <p>New York, NY</p>
+            <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="300" fill="#F0F7FF"/>
+                
+                <text x="200" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="#2C3E50" font-weight="bold">Weekly Weather Summary</text>
+                
+                <!-- Temperature Line Graph -->
+                <g transform="translate(25, 50)">
+                    <rect width="350" height="100" rx="5" fill="white" stroke="#E0E6ED"/>
+                    <polyline 
+                        points="25,75 75,50 125,60 175,40 225,45 275,35 325,55"
+                        fill="none"
+                        stroke="#FF7675"
+                        stroke-width="2"
+                    />
+                    <circle cx="25" cy="75" r="3" fill="#FF7675"/>
+                    <circle cx="75" cy="50" r="3" fill="#FF7675"/>
+                    <circle cx="125" cy="60" r="3" fill="#FF7675"/>
+                    <circle cx="175" cy="40" r="3" fill="#FF7675"/>
+                    <circle cx="225" cy="45" r="3" fill="#FF7675"/>
+                    <circle cx="275" cy="35" r="3" fill="#FF7675"/>
+                    <circle cx="325" cy="55" r="3" fill="#FF7675"/>
+                    
+                    <text x="175" y="15" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50">Temperature Trend</text>
+                </g>
+                
+                <!-- Statistics Boxes -->
+                <g transform="translate(25, 175)">
+                    <rect width="110" height="50" rx="5" fill="#FFF3CD"/>
+                    <text x="55" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Sunny Days</text>
+                    <text x="55" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#F39C12" font-weight="bold">5/7</text>
+                    
+                    <g transform="translate(120, 0)">
+                        <rect width="110" height="50" rx="5" fill="#D1ECF1"/>
+                        <text x="55" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Avg Humidity</text>
+                        <text x="55" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#17A2B8" font-weight="bold">65%</text>
+                    </g>
+                    
+                    <g transform="translate(240, 0)">
+                        <rect width="110" height="50" rx="5" fill="#E2E3FF"/>
+                        <text x="55" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Rain Chance</text>
+                        <text x="55" y="35" text-anchor="middle" font-family="Arial" font-size="12" fill="#6C63FF" font-weight="bold">30%</text>
+                    </g>
+                </g>
+            </svg>
         </div>
 
         <div class="forecast">
             <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
                 <p>Sunday</p>
-                <img src="https://via.placeholder.com/50" alt="Sunny icon">
                 <p>75°F</p>
             </div>
 
             <div class="forecast-card">
+                <img src="rain.png" alt="Rainy icon">
                 <p>Monday</p>
-                <img src="https://via.placeholder.com/50" alt="Sunny icon">
                 <p>75°F</p>
             </div>
 
             <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
                 <p>Tuesday</p>
-                <img src="https://via.placeholder.com/50" alt="Cloudy icon">
                 <p>68°F</p>
             </div>
 
             <div class="forecast-card">
+                <img src="rain.png" alt="Rainy icon">
                 <p>Wednesday</p>
-                <img src="https://via.placeholder.com/50" alt="Rainy icon">
                 <p>65°F</p>
             </div>
 
             <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
                 <p>Thursday</p>
-                <img src="https://via.placeholder.com/50" alt="Sunny icon">
                 <p>75°F</p>
             </div>
 
             <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
                 <p>Friday</p>
-                <img src="https://via.placeholder.com/50" alt="Sunny icon">
                 <p>75°F</p>
             </div>
 
             <div class="forecast-card">
+                <img src="cloudy.png" alt="Cloudy icon">
                 <p>Saturday</p>
-                <img src="https://via.placeholder.com/50" alt="Sunny icon">
                 <p>75°F</p>
             </div>
 
