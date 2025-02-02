@@ -1,18 +1,18 @@
 Observant One: Cindy Yang. Cindy is an avid weather app user. She uses the app daily and even has the widget for the weather app on her phone.
 Cindy is a senior at the University of Pennsylvania, studying Computer Science. She is a student in HCI and also studying the most useful
-interfaces for a weather app.
+interfaces for a weather app. Our interview took place in Skirkanich 114 on Tuesday, January 28th.
 
 Observant Two: Lihini Ranaweera. Lihini Ranaweera is a freshman at the University of Pennsylvania. She is a frequent runner and often uses
 the weather app to plan out her running schedule accordingly. She does not have a strong opinion on what a good weather app should look like
-but is open to learning about HCI as a potential niche for a career.
+but is open to learning about HCI as a potential niche for a career. Our interview took place in the Hill Yellow Lounge on Monday, January 27th.
 
 Observant Three: Audrey Keener. Audrey Keener is a senior at the University of Pennsylvania. She is studying Computer Science, and has thorough
 machine learning experience. She is starting to learn about HCI, and has some ideas on how some machine learning features can be implemented
-in a weather app.
+in a weather app. Our interview took place in our apartment, since Audrey is my roommate.
 
 Observant Four: Selena Rosario. Selena Rosario is a senior at the University of Pennsylvania. She is studying Political Science and 
-Criminology. She primarily users the weather app for outfit planning purposes. 
+Criminology. She primarily users the weather app for outfit planning purposes. Our interview took place in the Radian on Monday, January 27th
 
 Observant Five: Gabriel Smith. Gabriel is also an avid weather app user.  He uses the weather app both on his phone and on his apple watch.
 He is a senior at the University of Pennsylvania, studying computer science. Gabriel is currently taking a computer graphics course, and has
-many thoughts on what makes a well-made weather app.
+many thoughts on what makes a well-made weather app. Our interview took place in Skirkanich 114 on Tuesday, January 28th.
