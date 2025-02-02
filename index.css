@@ -76,6 +76,10 @@ nav ul li a {
     justify-content: space-between;
 }
 
+.forecast .more {
+    text-decoration: underline;
+}
+
 .forecast-row {
     display: flex;
     justify-content: space-between;
