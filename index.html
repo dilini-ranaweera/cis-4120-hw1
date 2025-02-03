@@ -10,199 +10,138 @@
 
 <body>
     <div class="app-container">
-        <div class="header">Welcome to CoolWeather! </div>
+        <div class="header">Welcome to CoolWeather!</div>
         <nav>
             <ul>
-              <li><a href="/index.html">Philadelphia Weather!</a></li>
-              <li><a href="/pittsburgh.html">Pittsburgh Weather!</a></li>
+                <li><a href="/index.html">Philadelphia</a></li>
+                <li><a href="/pittsburgh.html">Pittsburgh</a></li>
             </ul>
         </nav>
 
         <div class="current-weather-stats">
-            <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" style="width: 1200px;">
-            <rect width="400" height="200" fill="#F0F7FF" />
-
-            <text x="200" y="20" text-anchor="middle" font-family="Arial" font-size="12" fill="#2C3E50"
-                font-weight="bold">Philadelphia's Weekly Weather Summary</text>
-
-            <g transform="translate(25, 30)">
-                <rect width="350" height="60" rx="5" fill="white" stroke="#E0E6ED" />
-                <polyline points="25,45 75,30 125,35 175,25 225,30 275,20 325,35" fill="none" stroke="#FF7675"
-                stroke-width="2" />
-                <circle cx="25" cy="45" r="2" fill="#FF7675" />
-                <circle cx="75" cy="30" r="2" fill="#FF7675" />
-                <circle cx="125" cy="35" r="2" fill="#FF7675" />
-                <circle cx="175" cy="25" r="2" fill="#FF7675" />
-                <circle cx="225" cy="30" r="2" fill="#FF7675" />
-                <circle cx="275" cy="20" r="2" fill="#FF7675" />
-                <circle cx="325" cy="35" r="2" fill="#FF7675" />
-
-                <text x="175" y="10" text-anchor="middle" font-family="Arial" font-size="10"
-                fill="#2C3E50">Temperature Trend</text>
-            </g>
-
-            <g transform="translate(25, 110)">
-                <rect width="110" height="40" rx="5" fill="#FFF3CD" />
-                <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#2C3E50">Sunny
-                Days</text>
-                <text x="55" y="28" text-anchor="middle" font-family="Arial" font-size="10" fill="#F39C12"
-                font-weight="bold">5/7</text>
-
-                <g transform="translate(120, 0)">
-                <rect width="110" height="40" rx="5" fill="#D1ECF1" />
-                <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#2C3E50">Average
-                    Humidity</text>
-                <text x="55" y="28" text-anchor="middle" font-family="Arial" font-size="10" fill="#17A2B8"
-                    font-weight="bold">65%</text>
+            <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="400" fill="#F0F7FF" />
+                <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="14" fill="#2C3E50" font-weight="bold">Philadelphia's Weekly Weather Summary</text>
+        
+                <g transform="translate(50, 50)">
+                    <rect width="300" height="80" rx="5" fill="white" stroke="#E0E6ED" />
+                    <polyline points="30,65 70,50 90,55 140,45 160,50 180,40 210,25" fill="none" stroke="#FF7675" stroke-width="1" />
+                    <circle cx="30" cy="65" r="3" fill="#FF7675" />
+                    <circle cx="70" cy="50" r="3" fill="#FF7675" />
+                    <circle cx="90" cy="55" r="3" fill="#FF7675" />
+                    <circle cx="140" cy="45" r="3" fill="#FF7675" />
+                    <circle cx="160" cy="50" r="3" fill="#FF7675" />
+                    <circle cx="180" cy="40" r="3" fill="#FF7675" />
+                    <circle cx="210" cy="25" r="3" fill="#FF7675" />
+                    <text x="150" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">High Temperature Trend</text>
                 </g>
-
-                <g transform="translate(240, 0)">
-                <rect width="110" height="40" rx="5" fill="#E2E3FF" />
-                <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#2C3E50">Average Rain
-                    Chance</text>
-                <text x="55" y="28" text-anchor="middle" font-family="Arial" font-size="10" fill="#6C63FF"
-                    font-weight="bold">30%</text>
+        
+                <g transform="translate(50, 150)">
+                    <g transform="translate(0, 0)">
+                        <rect width="140" height="60" rx="5" fill="#FFF3CD" />
+                        <text x="70" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Sunny Days</text>
+                        <text x="70" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#F39C12" font-weight="bold">5/7</text>
+                    </g>
+                    <g transform="translate(160, 0)">
+                        <rect width="140" height="60" rx="5" fill="#D1ECF1" />
+                        <text x="70" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Avg Humidity</text>
+                        <text x="70" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#17A2B8" font-weight="bold">65%</text>
+                    </g>
+                    <g transform="translate(0, 80)">
+                        <rect width="140" height="60" rx="5" fill="#E2E3FF" />
+                        <text x="70" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Avg Rain Chance</text>
+                        <text x="70" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#6C63FF" font-weight="bold">30%</text>
+                    </g>
+                    <g transform="translate(160, 80)">
+                        <rect width="140" height="60" rx="5" fill="#F8D7DA" />
+                        <text x="70" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Avg Wind Speed</text>
+                        <text x="70" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#C82333" font-weight="bold">15 mph</text>
+                    </g>
+                    <g transform="translate(0, 160)">
+                        <rect width="140" height="60" rx="5" fill="#D4EDDA" />
+                        <text x="70" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Avg Pressure</text>
+                        <text x="70" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#28A745" font-weight="bold">1015 hPa</text>
+                    </g>
+                    <g transform="translate(160, 160)">
+                        <rect width="140" height="60" rx="5" fill="#FDEBD0" />
+                        <text x="70" y="20" text-anchor="middle" font-family="Arial" font-size="10" fill="#2C3E50">Avg Visibility</text>
+                        <text x="70" y="40" text-anchor="middle" font-family="Arial" font-size="12" fill="#F39C12" font-weight="bold">10 miles</text>
+                    </g>
                 </g>
-
-                <g transform="translate(0, 50)">
-                <rect width="110" height="40" rx="5" fill="#F8D7DA" />
-                <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#2C3E50">Average Wind Speed</text>
-                <text x="55" y="28" text-anchor="middle" font-family="Arial" font-size="10" fill="#C82333"
-                    font-weight="bold">15 mph</text>
-                </g>
-
-                <g transform="translate(120, 50)">
-                <rect width="110" height="40" rx="5" fill="#D4EDDA" />
-                <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#2C3E50">Average Pressure</text>
-                <text x="55" y="28" text-anchor="middle" font-family="Arial" font-size="10" fill="#28A745"
-                    font-weight="bold">1015 hPa</text>
-                </g>
-
-                <g transform="translate(240, 50)">
-                <rect width="110" height="40" rx="5" fill="#FDEBD0" />
-                <text x="55" y="15" text-anchor="middle" font-family="Arial" font-size="8" fill="#2C3E50">Average Visibility</text>
-                <text x="55" y="28" text-anchor="middle" font-family="Arial" font-size="10" fill="#F39C12"
-                    font-weight="bold">10 miles</text>
-                </g>
-            </g>
             </svg>
         </div>
+
         <div class="forecast">
-            <div class="forecast-row">
-                <div class="forecast-card">
-                    <img src="sun.png" alt="Sunny icon">
-                    <p>Sunday, February 9th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="forecast-card">
-                    <img src="rain.png" alt="Rainy icon">
-                    <p>Monday, February 10th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="forecast-card">
-                    <img src="sun.png" alt="Sunny icon">
-                    <p>Tuesday, February 11th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="forecast-card">
-                    <img src="rain.png" alt="Rainy icon">
-                    <p>Wednesday, February 12th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
+            <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
+                <p>Sunday, February 9th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 60°F @ 2:43 PM</div>
+                    <div class="temp-low">Low: 47°F @ 6:00 AM</div>
+                    <div class="more">View More Details</div>
                 </div>
             </div>
-        
-            <div class="forecast-row bottom">
-                <div class="forecast-card">
-                    <img src="sun.png" alt="Sunny icon">
-                    <p>Thursday, February 13th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="forecast-card">
-                    <img src="sun.png" alt="Sunny icon">
-                    <p>Friday, February 14th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="forecast-card">
-                    <img src="cloudy.png" alt="Cloudy icon">
-                    <p>Saturday, February 15th</p>
-                    <div class="temp-container">
-                        <div class="temp-high">
-                            High: 75°F @ 2:43 PM
-                        </div>
-                        <div class="temp-low">
-                            Low: 55°F @ 6:00 AM
-                        </div>
-                        <div class="more">
-                            View More Details
-                        </div>
-                    </div>
+            
+            <div class="forecast-card">
+                <img src="rain.png" alt="Rainy icon">
+                <p>Monday, February 10th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 75°F @ 4:24 PM</div>
+                    <div class="temp-low">Low: 50°F @ 7:10 AM</div>
+                    <div class="more">View More Details</div>
                 </div>
             </div>
+
+            <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
+                <p>Tuesday, February 11th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 71°F @ 4:21 PM</div>
+                    <div class="temp-low">Low: 55°F @ 3:00 AM</div>
+                    <div class="more">View More Details</div>
+                </div>
+            </div>
+
+            <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
+                <p>Wednesday, February 12th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 78°F @ 11:00 AM</div>
+                    <div class="temp-low">Low: 61°F @ 1:00 AM</div>
+                    <div class="more">View More Details</div>
+                </div>
+            </div>
+
+            <div class="forecast-card">
+                <img src="sun.png" alt="Sunny icon">
+                <p>Thursday, February 13th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 75°F @ 3:33 PM</div>
+                    <div class="temp-low">Low: 55°F @ 8:00 AM</div>
+                    <div class="more">View More Details</div>
+                </div>
+            </div>
+
+            <div class="forecast-card">
+                <img src="cloudy.png" alt="Sunny icon">
+                <p>Friday, February 14th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 80°F @ 6:40 PM</div>
+                    <div class="temp-low">Low: 52°F @ 6:00 AM</div>
+                    <div class="more">View More Details</div>
+                </div>
+            </div>
+
+            <div class="forecast-card">
+                <img src="rain.png" alt="Sunny icon">
+                <p>Saturday, February 15th</p>
+                <div class="temp-container">
+                    <div class="temp-high">High: 90°F @ 1:20 PM</div>
+                    <div class="temp-low">Low: 65°F @ 5:55 AM</div>
+                    <div class="more">View More Details</div>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>

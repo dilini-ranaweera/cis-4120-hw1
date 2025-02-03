@@ -1,12 +1,10 @@
 I will include the following key features in the home screen of my weather app: 
 	-The time of the high and low temperature for a given date
-	-Background color to indicate the general temperature of the day
-	-Small icons to indicate whether there is precipitation
+	-Small icons to indicate whether the general temperature
 	-Horizontally Oriented information containers for each day of the week
 	-A trend graph + relevant statistics for the week at the top of each page (before the individual cards)
 	-A navigation bar for each location that the user wants to view information for
 	-Blurbs for concerning information occuring on a given day (if the air quality is bad, etc)
-	-CoolWeather's logo, for a change of design among the weather-related information
 	-The option to display information on external topics, such as pollen, sunrise + sunset, and UV index
 
 I will not be including the following:
